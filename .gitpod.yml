@@ -4,7 +4,7 @@ image:
 tasks:
   - name: "ssh public key setup"
     command: |
-      docker run -it --rm -v $(pwd):/home/gitpod/work ghcr.io/cpp-review-dune/introductory-review/dunepdelab:latest
+      docker run -it --rm -v $(pwd):/home/gitpod/work ghcr.io/cpp-review-dune/introductory-review/dunepdelabtutorials:latest
 
 ports:
   # [ NOTE ] => for chisel
